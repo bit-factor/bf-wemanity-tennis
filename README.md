@@ -18,8 +18,6 @@ How to build:
  
 How to run:
  * go into `target/` directory;
- * for simplicity, in main method I considered we have only 2 hardcoded players: `a` and `b`. The program expects as input a string formed from `a` and `b`. Each occurence means that respective player won that `game`. For example, string `aab` means that player `a` won the first to games and then `b` won the latest one;
-   * as an improvement - I may need to find a way to limit the input to an exact game. Right now, is difficult to provide the exact `[ab]*` string to have a full match. A possible solution could be simply using `readKey`;
- * from command line type `java -jar ./bf-wemanity-tennis-0.0.1-SNAPSHOT-jar-with-dependencies.jar [ab]*`
-   * where `[ab]*` is a string which defines a sequence in which each player will win the points;
-   * example: `java -jar ./bf-wemanity-tennis-0.0.1-SNAPSHOT-jar-with-dependencies.jar aabbaaabbbbaaabbbaabbaba`
+ * from command line type `java -jar ./bf-wemanity-tennis-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
+ * the program will start and then wait for the user to enter the player name who is going to win this ball (press ENTER when done);
+ * the steps will be repeated until the current set is being won;
