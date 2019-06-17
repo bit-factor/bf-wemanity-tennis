@@ -22,3 +22,4 @@ How to run:
    * as an improvement - I may need to find a way to limit the input to an exact game. Right now, is difficult to provide the exact `[ab]*` string to have a full match. A possible solution could be simply using `readKey`;
  * from command line type `java -jar ./bf-wemanity-tennis-0.0.1-SNAPSHOT-jar-with-dependencies.jar [ab]*`
    * where `[ab]*` is a string which defines a sequence in which each player will win the points;
+   * example: `java -jar ./bf-wemanity-tennis-0.0.1-SNAPSHOT-jar-with-dependencies.jar aabbaaabbbbaaabbbaabbaba`
